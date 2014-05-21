@@ -17,6 +17,8 @@
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		7120A01D907E4A5D9863C269 /* CinderProjectApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8790436687A48949A97E84F /* CinderProjectApp.cpp */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		980C1CC9192D343A0044AF13 /* Blackened-Chicken-Pre-Cooked.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 980C1CC8192D343A0044AF13 /* Blackened-Chicken-Pre-Cooked.jpg */; };
+		980C1CCB192D344D0044AF13 /* pixelkid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 980C1CCA192D344D0044AF13 /* pixelkid.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* GLVertex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLVertex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		980C1CC8192D343A0044AF13 /* Blackened-Chicken-Pre-Cooked.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blackened-Chicken-Pre-Cooked.jpg"; sourceTree = "<group>"; };
+		980C1CCA192D344D0044AF13 /* pixelkid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pixelkid.jpg; sourceTree = "<group>"; };
 		C18FB4EBE1B14A29B7E30C01 /* GLVertex_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLVertex_Prefix.pch; sourceTree = "<group>"; };
 		C2A33BAC66A84ADF9DD5D78B /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		DAE715E0333C46E397653825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				980C1CCA192D344D0044AF13 /* pixelkid.jpg */,
+				980C1CC8192D343A0044AF13 /* Blackened-Chicken-Pre-Cooked.jpg */,
 				5097A76716F24D6589BE1019 /* CinderApp.icns */,
 				DAE715E0333C46E397653825 /* Info.plist */,
 			);
@@ -196,6 +202,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980C1CC9192D343A0044AF13 /* Blackened-Chicken-Pre-Cooked.jpg in Resources */,
+				980C1CCB192D344D0044AF13 /* pixelkid.jpg in Resources */,
 				3B81649C657B48819AEAEFAD /* CinderApp.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
