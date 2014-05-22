@@ -8,7 +8,7 @@ cCpResource pixelkid.jpg build/Debug/GLVertex.app/Contents/Resources/pixelkid.jp
 cCpResource /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/resources/CinderApp.icns build/Debug/GLVertex.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/r7/4x0kd2d95x9bnzvqrb4zcb0m0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/GLVertex_Prefix-cfnajvqfalfuviepwuqajowkhkjq/GLVertex_Prefix.pch.pch GLVertex_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/vboClass.o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/vboClass.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/cube.o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/cube.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app/Contents/MacOS/GLVertex normal i386
 cTouch /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app
 
@@ -428,9 +428,9 @@ t1400693123
 s459637
 
 N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp
-c00000000537D27FA00000000000012D5
-t1400711162
-s4821
+c00000000537D3C460000000000000939
+t1400716358
+s2361
 
 N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/Blackened-Chicken-Pre-Cooked.jpg
 c00000000537BDE9700000000002B1B38
@@ -448,7 +448,7 @@ t1400693123
 s1122
 
 N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app
-t1400711035
+t1400716521
 s102
 
 N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app/Contents/Info.plist
@@ -456,8 +456,8 @@ t1400695309
 s1484
 
 N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app/Contents/MacOS/GLVertex
-t1400711165
-s3141032
+t1400716551
+s3004468
 
 N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app/Contents/PkgInfo
 t1400695309
@@ -480,17 +480,32 @@ t1400703002
 s0
 
 N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.o
-t1400711164
-s2356228
+t1400716396
+s2055768
 
 N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/GLVertex.LinkFileList
-c00000000537D134F0000000000000116
-t1400705871
-s278
+c00000000537D38B60000000000000112
+t1400715446
+s274
+
+N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/cube.o
+t1400716550
+s573728
 
 N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/vboClass.o
+c00000000537D27FC00000000001F957C
 t1400711164
 s2069884
+
+N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/cube.cpp
+c00000000537D3D05000000000000093C
+t1400716549
+s2364
+
+N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/cube.h
+c00000000537D3C6B000000000000024B
+t1400716395
+s587
 
 N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/pixelkid.jpg
 c00000000537833980000000000017DA1
@@ -508,9 +523,9 @@ t1400711162
 s2408
 
 N/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/vboClass.h
-c00000000537D27FA0000000000000263
-t1400711162
-s611
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/wolfgag/cinder_0.8.5_mac/boost/boost/aligned_storage.hpp
 c00000000513E9EF000000000000010C9
@@ -4534,16 +4549,19 @@ s66265980
 CBuild AST from /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp
 r0
 
+CBuild AST from /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/cube.cpp
+r0
+
 CBuild AST from /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/vboClass.cpp
 r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3222b17a5f2db941^b933b37a5f2db941^---0#1#1#--18"Check dependencies36"1C82AF85-BFB9-4FBD-B139-4BAD60BFD791-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc3671785742db941^78b61785742db941^---0#1#1#--18"Check dependencies36"B6D833CD-BB87-437F-A7FC-696BA382C164-
 
 CCompileC build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s422403962.705136
-e422403964.413838
+s422409195.165524
+e422409196.618393
 r1
 xCompileC
 xbuild/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.o
@@ -4566,10 +4584,38 @@ d/Users/wolfgag/cinder_0.8.5_mac/boost/boost/type_traits/detail/type_trait_def.h
 d/Users/wolfgag/cinder_0.8.5_mac/boost/boost/type_traits/detail/template_arity_spec.hpp
 d/Users/wolfgag/cinder_0.8.5_mac/boost/boost/type_traits/detail/type_trait_undef.hpp
 d/Users/wolfgag/cinder_0.8.5_mac/boost/boost/type_traits/remove_volatile.hpp
-d/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/vboClass.h
-d/Users/wolfgag/cinder_0.8.5_mac/include/cinder/gl/Vbo.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp230"CompileC build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler0f97b47a5f2db941^bff1697c5f2db941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp0000000000000000^3213"CompileC build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/GLVertex-generated-files.hmap -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/GLVertex-own-target-headers.hmap -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/GLVertex-all-target-headers.hmap -iquote /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/GLVertex-project-headers.hmap -iquote../../../../cinder_0.8.5_mac/include -iquote../include -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/include -I../../../../cinder_0.8.5_mac/boost -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/DerivedSources/i386 -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/DerivedSources -F/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug -include /var/folders/r7/4x0kd2d95x9bnzvqrb4zcb0m0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/GLVertex_Prefix-cfnajvqfalfuviepwuqajowkhkjq/GLVertex_Prefix.pch -MMD -MT dependencies -MF /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.d --serialize-diagnostics /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.dia -c /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp -o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.o36"BDF25E7B-4FD1-4183-BDEC-7AB7D7ADD8C2-
-b9CEB8E93-C833-4B62-8DA0-758F8C3E62FD
+d/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/cube.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp230"CompileC build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerc9722aeb732db941^ec4f9eec732db941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp0000000000000000^3213"CompileC build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/GLVertex-generated-files.hmap -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/GLVertex-own-target-headers.hmap -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/GLVertex-all-target-headers.hmap -iquote /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/GLVertex-project-headers.hmap -iquote../../../../cinder_0.8.5_mac/include -iquote../include -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/include -I../../../../cinder_0.8.5_mac/boost -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/DerivedSources/i386 -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/DerivedSources -F/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug -include /var/folders/r7/4x0kd2d95x9bnzvqrb4zcb0m0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/GLVertex_Prefix-cfnajvqfalfuviepwuqajowkhkjq/GLVertex_Prefix.pch -MMD -MT dependencies -MF /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.d --serialize-diagnostics /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.dia -c /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/src/CinderProjectApp.cpp -o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.o36"9781A12C-D048-4114-9876-0FEEF108B484-
+b0FED87D7-0739-46A5-B4F2-068AFAF4CB70
+
+CCompileC build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/cube.o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/cube.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s422409349.105551
+e422409350.295234
+r1
+xCompileC
+xbuild/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/cube.o
+x/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/cube.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/cube.cpp
+d/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/cube.h
+d/Users/wolfgag/cinder_0.8.5_mac/include/cinder/app/AppNative.h
+d/Users/wolfgag/cinder_0.8.5_mac/include/cinder/gl/Texture.h
+d/Users/wolfgag/cinder_0.8.5_mac/include/cinder/TriMesh.h
+d/Users/wolfgag/cinder_0.8.5_mac/include/cinder/ObjLoader.h
+d/Users/wolfgag/cinder_0.8.5_mac/boost/boost/tuple/tuple_comparison.hpp
+d/Users/wolfgag/cinder_0.8.5_mac/boost/boost/tuple/tuple.hpp
+d/Users/wolfgag/cinder_0.8.5_mac/boost/boost/tuple/detail/tuple_basic.hpp
+d/Users/wolfgag/cinder_0.8.5_mac/boost/boost/type_traits/cv_traits.hpp
+d/Users/wolfgag/cinder_0.8.5_mac/boost/boost/type_traits/add_cv.hpp
+d/Users/wolfgag/cinder_0.8.5_mac/boost/boost/type_traits/detail/type_trait_def.hpp
+d/Users/wolfgag/cinder_0.8.5_mac/boost/boost/type_traits/detail/template_arity_spec.hpp
+d/Users/wolfgag/cinder_0.8.5_mac/boost/boost/type_traits/detail/type_trait_undef.hpp
+d/Users/wolfgag/cinder_0.8.5_mac/boost/boost/type_traits/remove_volatile.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/cube.cpp146"CompileC build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/cube.o cube.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler55181b85742db941^0c954b86742db941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/cube.cpp0000000000000000^3083"CompileC build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/cube.o cube.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/GLVertex-generated-files.hmap -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/GLVertex-own-target-headers.hmap -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/GLVertex-all-target-headers.hmap -iquote /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/GLVertex-project-headers.hmap -iquote../../../../cinder_0.8.5_mac/include -iquote../include -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/include -I../../../../cinder_0.8.5_mac/boost -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/DerivedSources/i386 -I/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/DerivedSources -F/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug -include /var/folders/r7/4x0kd2d95x9bnzvqrb4zcb0m0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/GLVertex_Prefix-cfnajvqfalfuviepwuqajowkhkjq/GLVertex_Prefix.pch -MMD -MT dependencies -MF /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/cube.d --serialize-diagnostics /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/cube.dia -c /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/cube.cpp -o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/cube.o36"1C25EB95-5B36-4D2E-9E0E-7C52FFA60228-
+bD3E2DC93-FF28-48C6-8384-6332D3D60B14
 
 CCompileC build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/vboClass.o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/vboClass.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s422403962.705169
@@ -4632,8 +4678,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy bu
 b89C48AEC-19F4-4D06-9BBA-8A983150D122
 
 CLd /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app/Contents/MacOS/GLVertex normal i386
-s422403964.416068
-e422403965.164022
+s422409350.297227
+e422409351.028388
 r1
 xLd
 x/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app/Contents/MacOS/GLVertex
@@ -4641,7 +4687,7 @@ xnormal
 xi386
 d/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/GLVertex.LinkFileList
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
-d/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/vboClass.o
+d/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/cube.o
 d/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/CinderProjectApp.o
 d/Users/wolfgag/cinder_0.8.5_mac/lib/libcinder_d.a
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
@@ -4718,8 +4764,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app/Contents/MacOS/GLVertex63"Ld build/Debug/GLVertex.app/Contents/MacOS/GLVertex normal i386a7916a7c5f2db941^bdfd297d5f2db941^---0#0#1#--1264"Ld build/Debug/GLVertex.app/Contents/MacOS/GLVertex normal i386    cd /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug -F/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug -filelist /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/GLVertex.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/GLVertex_dependency_info.dat -o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app/Contents/MacOS/GLVertex36"BB99D14A-F8C6-4EBB-8321-174C602DA7A0-
-b9CEB8E93-C833-4B62-8DA0-758F8C3E62FD
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app/Contents/MacOS/GLVertex63"Ld build/Debug/GLVertex.app/Contents/MacOS/GLVertex normal i38603264c86742db941^7c450787742db941^---0#0#1#--1264"Ld build/Debug/GLVertex.app/Contents/MacOS/GLVertex normal i386    cd /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug -F/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug -filelist /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/GLVertex.LinkFileList -mmacosx-version-min=10.7 -dead_strip ../../../../cinder_0.8.5_mac/lib/libcinder_d.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -Xlinker -dependency_info -Xlinker /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/GLVertex.build/Debug/GLVertex.build/Objects-normal/i386/GLVertex_dependency_info.dat -o /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app/Contents/MacOS/GLVertex36"B80BC31A-6AED-4B39-B281-3B49B63B0E9B-
+bD3E2DC93-FF28-48C6-8384-6332D3D60B14
 
 CProcessInfoPlistFile /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app/Contents/Info.plist /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/Info.plist
 s422388109.684145
@@ -5541,11 +5587,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Precomp
 bF486605B-95D9-4D80-8FCF-F4CBB6F41C24
 
 CTouch /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app
-s422403965.165049
-e422403965.168500
+s422409351.029255
+e422409351.035426
 r1
 xTouch
 x/Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Touch /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app30"Touch build/Debug/GLVertex.app234b2a7d5f2db941^f6252b7d5f2db941^---0#0#1#--209"Touch build/Debug/GLVertex.app    cd /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode    /usr/bin/touch -c /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app36"763192F4-6FCE-47BE-B983-DA124C25A902-
-b9CEB8E93-C833-4B62-8DA0-758F8C3E62FD
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Touch /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app30"Touch build/Debug/GLVertex.app7b870787742db941^40130987742db941^---0#0#1#--209"Touch build/Debug/GLVertex.app    cd /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode    /usr/bin/touch -c /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/build/Debug/GLVertex.app36"7F4C4E62-583C-4CE6-BEFF-4F781DCBFD9C-
+bD3E2DC93-FF28-48C6-8384-6332D3D60B14
 

@@ -13,5 +13,4 @@ dependencies: \
   /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/../../../../cinder_0.8.5_mac/boost/boost/type_traits/detail/template_arity_spec.hpp \
   /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/../../../../cinder_0.8.5_mac/boost/boost/type_traits/detail/type_trait_undef.hpp \
   ../../../../cinder_0.8.5_mac/boost/boost/type_traits/remove_volatile.hpp \
-  /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/vboClass.h \
-  ../../../../cinder_0.8.5_mac/include/cinder/gl/Vbo.h
+  /Users/wolfgag/cinderProjects/vertexAndNormals/GLVertex/xcode/cube.h
