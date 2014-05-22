@@ -30,6 +30,7 @@ class Cube
     gl::TextureRef cubeTex;
     
     int vertices;
+    int indices;
     
     Vec3f pos;
     Vec3f rot;

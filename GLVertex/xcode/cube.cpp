@@ -63,13 +63,16 @@ Cube::Cube()
         cube.appendTriangle( vertices - 4, vertices - 3, vertices - 2 );
         cube.appendTriangle( vertices - 4, vertices - 2, vertices - 1 );
     }
+    
+    vertices = cube.getNumVertices();
+    indices = cube.getNumIndices();
 
     cubeTex = gl::Texture::create(loadImage(loadResource("pixelkid.jpg")));
     cubeTex->setWrap(GL_REPEAT, GL_REPEAT);
     
     pos = Vec3f(0, 0, 0);
     rot = Vec3f(0, 0, 0);
-    size = Vec3f(100, 100, 100);
+    size = Vec3f(50, 50, 50);
 }
 
 void Cube::update()
