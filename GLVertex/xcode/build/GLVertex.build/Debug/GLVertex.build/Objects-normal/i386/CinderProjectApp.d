@@ -4,6 +4,7 @@ dependencies: \
   ../../../../cinder_0.8.5_mac/include/cinder/gl/Texture.h \
   ../../../../cinder_0.8.5_mac/include/cinder/gl/Vbo.h \
   ../../../../cinder_0.8.5_mac/include/cinder/TriMesh.h \
+  ../../../../cinder_0.8.5_mac/include/cinder/gl/GlslProg.h \
   ../../../../cinder_0.8.5_mac/include/cinder/ObjLoader.h \
   ../../../../cinder_0.8.5_mac/boost/boost/tuple/tuple_comparison.hpp \
   ../../../../cinder_0.8.5_mac/boost/boost/tuple/tuple.hpp \

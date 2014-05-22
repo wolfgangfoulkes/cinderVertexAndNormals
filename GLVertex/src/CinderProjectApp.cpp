@@ -6,6 +6,7 @@
 #include "cinder/gl/gl.h"
 #include "cinder/gl/Texture.h"
 #include "cinder/gl/Vbo.h"
+#include "cinder/gl/GlslProg.h"
 #include "cinder/TriMesh.h"
 #include "cinder/ObjLoader.h"
 #include <vector>
@@ -34,6 +35,8 @@ class CinderProjectApp : public AppNative {
     vector<uint32_t> indices;
     vector<Vec3f>  vertices;
     vector<Vec2f> texCoords;
+    
+    gl::GlslProg basicShader;
 };
 
 void CinderProjectApp::setup()
@@ -69,6 +72,8 @@ void CinderProjectApp::setup()
     
     gl::enableDepthRead(); //try with and without to get what this is //super-slow if you call it in the draw loop tho.
     gl::enableDepthWrite();
+    
+    basicShader = gl::GlslProg( loadResource("light_vert110.glsl"), loadResource("light_frag110.glsl"));
 }
 
 void CinderProjectApp::mouseDown( MouseEvent event )
@@ -92,7 +97,9 @@ void CinderProjectApp::draw()
 {
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
+    basicShader.bind();
     cube->draw();
+    basicShader.unbind();
     
     gl::pushMatrices();
     gl::translate(getWindowWidth()/2, getWindowHeight()/2);

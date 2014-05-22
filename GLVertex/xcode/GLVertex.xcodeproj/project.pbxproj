@@ -20,6 +20,8 @@
 		980C1CC9192D343A0044AF13 /* Blackened-Chicken-Pre-Cooked.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 980C1CC8192D343A0044AF13 /* Blackened-Chicken-Pre-Cooked.jpg */; };
 		980C1CCB192D344D0044AF13 /* pixelkid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 980C1CCA192D344D0044AF13 /* pixelkid.jpg */; };
 		980C1CD3192D6BAF0044AF13 /* cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 980C1CD1192D6BAF0044AF13 /* cube.cpp */; };
+		987F06DE192E7132009730F1 /* light_vert110.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 987F06DD192E7132009730F1 /* light_vert110.glsl */; };
+		987F06E0192E714E009730F1 /* light_frag110.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 987F06DF192E714E009730F1 /* light_frag110.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		980C1CCA192D344D0044AF13 /* pixelkid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pixelkid.jpg; sourceTree = "<group>"; };
 		980C1CD1192D6BAF0044AF13 /* cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cube.cpp; sourceTree = "<group>"; };
 		980C1CD2192D6BAF0044AF13 /* cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cube.h; sourceTree = "<group>"; };
+		987F06DD192E7132009730F1 /* light_vert110.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = light_vert110.glsl; sourceTree = "<group>"; };
+		987F06DF192E714E009730F1 /* light_frag110.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = light_frag110.glsl; sourceTree = "<group>"; };
 		C18FB4EBE1B14A29B7E30C01 /* GLVertex_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLVertex_Prefix.pch; sourceTree = "<group>"; };
 		C2A33BAC66A84ADF9DD5D78B /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		DAE715E0333C46E397653825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				987F06DF192E714E009730F1 /* light_frag110.glsl */,
+				987F06DD192E7132009730F1 /* light_vert110.glsl */,
 				980C1CCA192D344D0044AF13 /* pixelkid.jpg */,
 				980C1CC8192D343A0044AF13 /* Blackened-Chicken-Pre-Cooked.jpg */,
 				5097A76716F24D6589BE1019 /* CinderApp.icns */,
@@ -207,6 +213,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987F06DE192E7132009730F1 /* light_vert110.glsl in Resources */,
+				987F06E0192E714E009730F1 /* light_frag110.glsl in Resources */,
 				980C1CC9192D343A0044AF13 /* Blackened-Chicken-Pre-Cooked.jpg in Resources */,
 				980C1CCB192D344D0044AF13 /* pixelkid.jpg in Resources */,
 				3B81649C657B48819AEAEFAD /* CinderApp.icns in Resources */,
